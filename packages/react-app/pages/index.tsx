@@ -64,7 +64,7 @@ export default function Home() {
     };
 
     return (
-        <div className="flex flex-col items-center p-4 bg-gray-150">
+        <div className="flex flex-col items-center p-4 bg-pink-100">
 
            
             {address && (
@@ -96,7 +96,7 @@ export default function Home() {
                         <PrimaryButton
                             loading={signingLoading}
                             onClick={sendingCUSD}
-                            title="Send cUSD"
+                            title="Send "
                             widthFull
                         />
                     </div>
